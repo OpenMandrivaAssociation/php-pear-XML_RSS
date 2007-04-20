@@ -1,15 +1,17 @@
 %define		_class		XML
 %define		_subclass	RSS
-%define		_status		stable
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
+
+%define		_requires_exceptions pear(PHPUnit
 
 Summary:	%{_pearname} - RSS parser
 Name:		php-pear-%{_pearname}
-Version:	0.9.9
+Version:	0.9.10
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/XML_RSS/
 Requires(post): php-pear
 Requires(preun): php-pear
