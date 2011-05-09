@@ -5,7 +5,7 @@
 %define		_requires_exceptions pear(PHPUnit
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.1
+Version:	1.0.2
 Release:	%mkrel 1
 Summary:	RSS parser
 License:	PHP License
