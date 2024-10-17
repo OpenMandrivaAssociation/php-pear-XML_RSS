@@ -8,7 +8,7 @@ Release:	4
 Summary:	RSS parser
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/XML_RSS/
+URL:		https://pear.php.net/package/XML_RSS/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
